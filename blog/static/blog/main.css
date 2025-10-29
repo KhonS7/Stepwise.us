@@ -1,0 +1,161 @@
+/* Body Styles */
+body {
+  background: #f7f7f7;
+  color: #333333;
+  margin-top: 5rem;
+  font-family: "Arial", sans-serif;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #222222;
+  font-family: "Roboto", sans-serif;
+}
+
+/* List Styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Navbar Styles */
+.bg-steel {
+  background-color: #388cc7;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+/* Content Section Styles */
+.content-section {
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Article Styles */
+.article-title {
+  color: #222222;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+  border-radius: 50%;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 0.9rem;
+  color: #777777;
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+/* Account Styles */
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Logo Styles */
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Navbar Customization */
+.site-header .navbar-nav {
+  justify-content: flex-start;
+}
+
+.site-header .navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+/* Additional Modern Styles */
+/* Example 1: Gradient Background */
+.site-header {
+  background: linear-gradient(to right, #1abc9c, #16a085);
+}
+
+/* Example 2: Card Layout */
+.content-section {
+  background: #ffffff;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+  color: #222222;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.article-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.article-metadata {
+  margin-bottom: 20px;
+}
+
+.account-heading {
+  font-size: 3rem;
+  color: #222222;
+}
+
+
+
